@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+body{
+    background-color: #1f1f22;
+    font-family: Lora, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    display: flex;
+   justify-content:center;
+   align-items:center;
+   height: 50%;
+   position: absolute;
+   top: calc(25%px);
+   left:0;
+   right:0;
+   margin: 0 auto;
+   font-family: Monteserrat,sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex-center{
+    display: flex;
+   justify-content:center;
+   align-items:center;
+   height: 100%;
+   position: absolute;
+   top: calc(25%px);
+   left:0;
+   right:0;
+   margin:0 auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  a::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 1px;
+    width: 0;
+    background: rgb(104, 105, 6);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  }
+  
+  a:hover::after { 
+    width: 100%; 
+    left: 0; 
+  }
+  a:active, 
+  a:hover,  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  p{
+    color: #fff;
+  }
+  .hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  .photo img {
+    transition: 1s;
+  }
+  .photo:hover img{
+    transform:scale(1.1);
+  }

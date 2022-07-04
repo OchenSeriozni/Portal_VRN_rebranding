@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+html{
+    font-family: Monteserrat,sans-serif;
+}
+html,body{
+    height: 100%;
+    background-color: white;
+    font-size: 110%;
+}
+.containerP{
+min-height: 100%;
+display: flex;
+flex-direction: column;
+align-content:space-around;
+}
+.menu{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.logoG{
+    height: 75px;
+    width: 85px;
+}
+.logoZ{
+    height: 35px;
+    width: 50px; 
+    opacity: 0.4;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+a:hover{
+    color: white;
+}
+.main{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    padding: 1%;
+}
+.contentP{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1%;
+}
+.btn-list-1{
+    height: 85px;
+    margin-bottom: 5%;
+}
+.content-Contact-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    font-size: 54px;
+    margin-bottom: 5%;
+    margin-top: 4%
+}
+.Contact-information{
+width: 30%;
+}
+.contact-info-btn{
+width: 25%;
+}
+.Contact-information-main{
+display: flex;
+flex-direction: column;
+align-content:space-between;
+}

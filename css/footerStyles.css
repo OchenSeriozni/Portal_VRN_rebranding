@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+html{
+    font-family: Monteserrat,sans-serif;
+}
+.footer-text-color{
+    color: white;
+}
+.padding-top{
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.footer-li{
+    list-style-type:none;
+    padding-bottom: 3%;
+    font-size: 150%;
+    text-decoration: underline;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 3%;
+    font-size: 150%;
+}

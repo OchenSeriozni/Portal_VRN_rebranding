@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+html{
+    font-family: Monteserrat,sans-serif;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+    align-items:  space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.img-map{
+    height: 28rem;
+    width: 30rem;
+    margin-right: 5%;
+}
+h2,.lighter{
+    font-weight: lighter;
+}
+.stat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin-top: 1%;
+}
+.bold{
+    font-weight: bold;
+}
+.margin-top{
+    margin-top: 1%;
+    margin-left: 5%;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+body{
+
+    background-color: #1f1f22;
+    font-size: 120%;
+    font-family: Monteserrat,sans-serif;
+}
+.menu{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    color: white;
+}
+.containerP{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.logoG{
+    height: 75px;
+    width: 85px;
+}
+.logoZ{
+    height: 35px;
+    width: 50px; 
+    opacity: 0.4;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+a:hover{
+    color: wheat;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    width: 100%;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+.rowP{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 1%;
+}
+.card{
+    margin-left: 5%;
+}
+p{
+    text-align: center;
+    font-size:x-large;
+}
+h2,h3{
+    color: white;
+    margin-bottom: 1%;
+}
+h3{
+    font-weight: bold;
+}
