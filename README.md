@@ -10,10 +10,10 @@
     ставят человека в практически безвыходное положение.
 ```
 <h3>Главное меню<h3>
-<img src="./jpeg/itog/main.png" width="740" height="360">
+<img src="./jpeg/itog/main.png" width="85%" height="360">
 <h3>Промежуточное меню<h3>
-<img src="./jpeg/itog/about-the-region.png" width="740" height="360">
+<img src="./jpeg/itog/about-the-region.png" width="85%" height="360">
 <h3>О Губернаторе<h3>
-<img src="./jpeg/itog/governor_top.png" width="740" height="360">
+<img src="./jpeg/itog/governor_top.png" width="85%" height="360">
 <h3>Вакансии<h3>
-<img src="./jpeg/itog/vacancy_top.png" width="740" height="360">
+<img src="./jpeg/itog/vacancy_top.png" width="85%" height="360">
